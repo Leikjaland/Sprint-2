@@ -3,7 +3,7 @@
 import sys
 import time
 import select
-from herbergi_2 import skolastofa
+#from herbergi_2 import skolastofa
 
 # Hlutir sem þarf að satna í skólasofu og útiveru
 #bok = {}
@@ -24,7 +24,7 @@ class leikjaland(object):
 
 # Hér byrjar herbergi_1
     def Herbergi_1(self):
-        print('test1')
+        #print('test1')
         while (1):
             try:
                 fot= input('Viltu fara í skólann eða út að leika, velja\\skrifa skolafot eða utifot: ')
@@ -38,7 +38,7 @@ class leikjaland(object):
 # leikmaður fer í skolastofuna
         if fot == 'skolafot':
             print('Þú ert komin\\nn í skólann')
-            #skolastofa(bok)
+            #skolastofa()
             # forritið sem verður fyrir skólastofu herbergið
 
 
@@ -68,6 +68,7 @@ class leikjaland(object):
 def  main():
     leikur=leikjaland()
     leikur.Herbergi_1()
+
 
 
 if __name__  == '__main__':
